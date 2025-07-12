@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frases Motivacionales</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="contenedor">
+
+        <div class="pantalla-bienvenida">
+            <p class="titulo-inicial">Necesitas motivacion? Estas en el lugar correcto</p>
+            <label for="nombre">Decime tu nombre</label>
+            <input type="text" id="nombre" placeholder="escribi tu nombre acá" />
+            <br>
+            <br>
+            <button id="btn-comenzar"> Comenzar </button>
+        </div>
+
+        <div class="pantalla-frase" style="display: none;">
+            <h1> Hola, <span id="nombre-usuario"></span>! Esta es tu frase del día</h1>
+            <p id="frase"> </p>
+            <button id="btn-volver"> Reiniciar </button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

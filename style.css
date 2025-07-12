@@ -1,0 +1,75 @@
+body {
+    background: radial-gradient(circle, #ff5ad4, #ff94ac);
+    font-family: 'Segoe UI';
+    display: flex;
+    color: #de0366;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 35rem;
+}
+
+.titulo-inicial {
+    font-size: 3.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #de0366;
+}
+
+.pantalla-bienvenida {
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem;
+    color: white;
+    border-radius: 20px;
+}
+
+input[type="text"] {
+    padding: 0.6rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-top: 0.5rem;
+    width: 80%;
+    max-width: 300px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 1.8;
+}
+
+.contenedor {
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem;
+    color: white;
+    border-radius: 20px;
+}
+
+#frase {
+    margin: 1.5rem 0;
+    font-size: 1.6rem;
+}
+
+button {
+    background-color:#de0366;
+    cursor: pointer;
+    color: white;
+    border-radius: 8rem;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: background-color #de0366 0.8 ease, transform 0.5 ease;
+    transform: scale(1);
+}
+
+button:hover {
+  background-color: #c50a71;
+  transform: scale(1.1);
+}
+
+button:active {
+  transform: scale(0.98);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
