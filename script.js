@@ -8,7 +8,9 @@ const frases = [
   "No te rindas, lo bueno tarda.",
   "Convertí los obstáculos en oportunidades.",
   "Confía en tu proceso.",
-  "Hoy es un buen día para empezar."
+  "Hoy es un buen día para empezar.",
+  "Aunque no lo creas, puedes con todo.",
+  "Te mereces todo lo bonito de la vida."
 ];
 
 const welcomeScreen = document.querySelector(".pantalla-bienvenida");
